@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -11,6 +12,8 @@ body {
     height: 669px;
     position: absolute;
     top: 0;
+    margin-bottom: 100px;
+
 }
 
 .header div {
@@ -42,4 +45,56 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 40px;
+}
+
+.donate-money {
+    width: 100%;
+    position: relative;
+    top: 700px;
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.donate-money-content h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-money-content p {
+    font-size: 18px;
+    color: #707070;
+}
+
+.flexible-container {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+#highlight-money {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 22px 44px;
+    text-align: center;
+    color: #FF5959;
+    position: relative;
+    top: -20px;
+}
+
+.other-amount {
+    color: #B3B3B3;
+}
+
+hr {
+    width: 765px;
+    border: 1px solid #DADADA;
 }
