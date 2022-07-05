@@ -183,9 +183,56 @@ hr {
     border-radius: 10px;
 }
 
-.update {
+.bonus {
+    width: 70%;
     position: relative;
     top: 800px;
+    margin-left: 18%;
+    margin-right: 12%;
+
+}
+
+.bonus h1 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.bonus p {
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 34px;
+    font-style: italic;
+}
+
+.bonus-img {
+    display: flex;
+}
+
+.bonus-img img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.bonus-img p {
+    width: 90%;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.children-number {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.update {
+    position: relative;
+    top: 850px;
     text-align: center;
 }
 
