@@ -232,3 +232,27 @@ form #subscribe {
     color: white;
     font-weight: 700;
 }
+
+footer {
+    background-color: #0B0D17;
+    position: relative;
+    top: 850px;
+    height: 150px;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div h4 {
+    color: #FF5959;
+    font-size: 36px;
+    position: relative;
+    top: 40px;
+    font-family: 'Lobster';
+}
+
+footer div p {
+    color: #D9DBE1;
+    font-family: 'Manrope';
+}
