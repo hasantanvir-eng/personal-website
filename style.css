@@ -6,7 +6,8 @@ body {
 }
 
 .header {
-    background-image: url('./images/donation13.jpg');
+    background-image: url('./images/donation6.jpg');
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -32,10 +33,17 @@ body {
 }
 
 .header p {
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     color: white;
+}
+
+#int-team {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .link-button {
@@ -66,6 +74,7 @@ body {
 .donate-money-content p {
     font-size: 18px;
     color: #707070;
+    text-align: center;
 }
 
 .flexible-container {
@@ -115,6 +124,7 @@ hr {
 }
 
 .donation-plan-text p {
+    text-align: center;
     font-size: 18px;
     color: #707070;
     position: relative;
